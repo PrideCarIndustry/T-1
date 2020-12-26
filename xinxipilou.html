@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			/* 导航栏最外层div做浮动 */
+			#pl_header{position: absolute;top: 0px;background-color: #F7F5F5;height: 60px;width: 100%;}
+			#pl_header ul{display: flex;flex-wrap: nowrap;list-style: none;}
+			#pl_header a{color: #005a8a;display: block;text-decoration: none;}
+			#pl_header img{height: 40px;padding-top: 10px;}
+			#pl_h_left a{font-size: 16px;margin-left: 10px;}
+			#pl_h_right a{font-size: 15px;margin-left: 10px;padding-top: 20px;}
+			#pl_h_left{fmargin-left: 200px;float: left;text-align: center;padding-left: 100px;line-height: 60px;}
+			#pl_h_right{margin-right: 100px;float: right;}
+			/* 最上方第一张图片,公开信息披露 */
+			#img_25022{width: 100%;}
+			#img_25022>img{width: 100%;}
+			/* 大图片下的字 */
+			#pl_f{height: 60px;background-color: #F7F7F7;}
+			#pl_f>div{height: 20px;background-color: #F7F5F5;}
+			#pl_f a{display: inline-block;font-size: 14px;color: #333333;text-decoration: none;}
+			/* 基本信息 年度信息 专项信息 重大事项外层div */
+			#pl_cen{ width: 1000px;margin: 0 auto;background-color: #F1B0B7;}
+			#pl_cen_top,#pl_cen_bottom{display: flex;flex-wrap: nowrap;position: relative;}
+			#img_25023 img{width: 100%;padding-right: 30px;}
+			#img_25024 img{width: 100%;padding-left: 30px;}
+			#img_25025 img{width: 100%;padding-right: 30px;}
+			#img_25026 img{width: 100%;padding-left: 30px;}
+			.m{margin: 0 auto;}
+			
+		</style>
+	</head>
+	<body>
+		<!-- 导航栏 -------------------------------------------------------------------------------导航栏-->
+		<div id="pl_header">
+			<!-- 导航左侧的弹性项目 -->
+			<div id="pl_h_left">
+				<ul>
+					<li><a href="#"><img src="img/logo.jpg"></a></li>
+					<li><a href="#">全国客服热线95590</a></li>
+					<li><a href="#">官方商城</a></li>
+				</ul>
+			</div>
+			<!-- 导航右侧的弹性项目 -->
+			<div id="pl_h_right">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">走进大地</a></li>
+					<li><a href="#">新闻资讯</a></li>
+					<li><a href="#">保险产品</a></li>
+					<li><a href="#">客户服务</a></li>
+					<li><a href="#">公开信息披露</a></li>
+					<li><a href="#">加入我们</a></li>
+					<li><a href="#">CN/EN</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 最上方大图片，公开信息披露 ----------------------------------------------------------------第一张大图片---->
+		<div id="img_25022">
+			<img src="img/25022.jpg">
+		</div>
+		<!-- 大图片下面的一行字 -->
+		<div id="pl_f">
+			<div><a href="#">主页</a><a href="#">公开信息披露</a></div>
+		</div>
+		<!-- 基本信息 年度信息 专项信息 重大事项外层div -->
+
+		<div id="pl_cen">
+			<div class="m">
+				<div id="pl_cen_top">
+					<div id="img_25023"><img src="_20201226141851.jpg"><p>基本信息</p></div>
+					<div id="img_25024"><img src="_202012261418512.jpg"><p>年度信息</p></div>
+				</div>
+				<div id="pl_cen_bottom">
+					<div id="img_25025"><img src="微信图片_202012261418511.jpg"><p>专项信息</p></div>
+					<div id="img_25026"><img src="微信图片_202012261418513.jpg"><p>重大事项</p></div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
